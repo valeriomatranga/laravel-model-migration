@@ -3,7 +3,7 @@
 
 ## INSTALLARE LARAVELL E DARE UN NOME AL PROGETTO
 ```bash
-composer create-project --prefer-dist laravel/laravel:^7.0
+composer create-project --prefer-dist laravel/laravel:^7.0 'nome scelto'
 ```
 
 ## AVVIARE IL SERVER LOCALHOST
@@ -16,7 +16,7 @@ php artisan serve  -/-   php -s localhost:8000 -t public
 npm install
 ```
 
-## LANCIARE IL WATCH PER AGGIORNARE IN AUTONOMIA 
+## LANCIARE IL WATCH PER AGGIORNARE GLI ASSETS IN AUTONOMIA 
 ```bash
 npm run watch
 ```
@@ -123,7 +123,7 @@ class TravelController extends Controller
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
 DB_PORT=3306
-DB_DATABASE=travel
+DB_DATABASE=nome database
 DB_USERNAME=root
 DB_PASSWORD=root
 ```
